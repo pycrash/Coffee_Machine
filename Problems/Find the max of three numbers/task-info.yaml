@@ -1,0 +1,28 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    public static int getNumberOfMaxParam(int a, int b, int c) {
+        // write a body here
+    }
+
+    public class Main {
+
+        public static void main(String[] args) {
+
+            Scanner scanner = new Scanner(System.in);
+
+            final int a = scanner.nextInt();
+            final int b = scanner.nextInt();
+            final int c = scanner.nextInt();
+
+            System.out.println(getNumberOfMaxParam(a, b, c));
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2726
+status: Solved
+record: -1

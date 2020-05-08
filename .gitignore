@@ -1,0 +1,19 @@
+# Project exclude paths
+/.gradle/
+/Coffee Machine/task/build/
+/Coffee Machine/task/out/
+/Coffee Machine/task/out/production/classes/
+/Problems/Account and its owner/out/
+/Problems/Account and its owner/out/production/classes/
+/Problems/Cyclically shifting elements/out/
+/Problems/Cyclically shifting elements/out/production/classes/
+/Problems/Days of week/out/
+/Problems/Days of week/out/production/classes/
+/Problems/Find the max of three numbers/out/
+/Problems/Find the max of three numbers/out/production/classes/
+/Problems/Geometric cube/out/
+/Problems/Geometric cube/out/production/classes/
+/Problems/Raise to the power/out/
+/Problems/Raise to the power/out/production/classes/
+/Problems/The secret enumeration/out/
+/Problems/The secret enumeration/out/production/classes/

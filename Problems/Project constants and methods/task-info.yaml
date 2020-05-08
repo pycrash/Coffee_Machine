@@ -1,0 +1,12 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public static void main(String[] args) {
+        // write your code using the existing class ConstantsAndUtilities
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3012
+status: Solved
+record: -1

@@ -1,0 +1,53 @@
+<b>Balance management</b> <a class=right href="https://hyperskill.org/learn/step/2179">Open on JetBrains Academy</a>
+<br><br>
+<html>
+ <head></head>
+ <body>
+  <p>You are given the enum <code class="language-java">Operation</code> and the class <code class="language-java">Account</code>. Their implementations are shown below.</p> 
+  <p>The <code class="language-java">Operation</code> enum:</p> 
+  <pre><code class="language-java">enum Operation {
+&nbsp; &nbsp; /**
+&nbsp; &nbsp;  * deposit (add) an amount into an Account
+&nbsp; &nbsp;  */
+&nbsp; &nbsp; DEPOSIT,
+&nbsp; &nbsp; /**
+&nbsp; &nbsp;  * withdraw (subtract) an amount from an Account
+&nbsp; &nbsp;  */
+&nbsp; &nbsp; WITHDRAW
+}</code></pre> 
+  <p>The <code class="language-java">Account</code> class:</p> 
+  <pre><code class="language-java">class Account {
+
+&nbsp; &nbsp; private String code;
+&nbsp; &nbsp; private Long balance;
+
+&nbsp; &nbsp; public String getCode() {
+&nbsp; &nbsp; &nbsp; &nbsp; return code;
+&nbsp; &nbsp; }
+
+&nbsp; &nbsp; public Long getBalance() {
+&nbsp; &nbsp; &nbsp; &nbsp; return balance;
+&nbsp; &nbsp; }
+
+&nbsp; &nbsp; public void setBalance(Long balance) {
+&nbsp; &nbsp; &nbsp; &nbsp; this.balance = balance;
+&nbsp; &nbsp; }
+}</code></pre> 
+  <p>&nbsp;</p> 
+  <p><img alt="" height="21" src="https://ucarecdn.com/30b1850a-4aed-4a63-a026-7ea80a12a6de/" style="float: left;" width="124"></p> 
+  <p>&nbsp;</p> 
+  <p>Implement the method <strong>changeBalance </strong>to control balances. It has the following declaration:</p> 
+  <pre><code class="language-java">public static boolean changeBalance(Account account, Operation operation, Long sum)</code></pre> 
+  <p>- If the given operation is DEPOSIT the method adds the sum to the account's balance.</p> 
+  <p>- If the operation is WITHDRAW the method subtracts the given sum from the account's balance. If the given sum is greater than the balance, the method shouldn't change it. Instead, the method must output the string <strong>"Not enough money to withdraw."</strong> (without quotes, don't forget the full point).</p> 
+  <p>- In any case, the method returns a <strong>boolean value</strong> — true if the balance has changed,&nbsp;false if it hasn't.</p> 
+  <p>&nbsp;</p> 
+  <p><strong>Example 1</strong></p> 
+  <p>The following values are passed to the method: operation = Operation.DEPOSIT, sum = 2000. The initial balance of the account is 1000.</p> 
+  <p>In this case, the method returns "true" and the new account balance is 3000.</p> 
+  <p><strong>Example 2</strong></p> 
+  <p>The following values are passed to the method: operation = Operation.WITHDRAW, sum = 5000. The initial balance of the account is 2000.</p> 
+  <p>In this case, the method returns "false", the account's balance is not changed (2000) and method prints "Not enough money to withdraw.".</p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/8429">Show topic summary</a>
